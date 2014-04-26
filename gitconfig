@@ -1,0 +1,27 @@
+[user]
+	name = Martin Hipp
+	email = martin.hipp@gmail.com
+[alias]
+	st = status -sb
+	ci = commit
+	br = branch
+	co = checkout
+	ft = fetch
+	rb = rebase
+	df = diff --color-words
+	dc = diff --cached
+	lp = log -p --abbrev-commit --color-words
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	ls = log --stat --abbrev-commit
+	l = log --oneline --abbrev-commit
+	lg = log --abbrev-commit --decorate
+	ds = diff --stat
+	unstage = reset HEAD
+	assume = update-index --assume-unchanged
+	unassume = update-index --no-assume-unchanged
+	assumed = "!git ls-files -v | grep ^h | cut -c 3-"
+[branch]
+ 	autosetuprebase = always
+[color]
+	ui = true
