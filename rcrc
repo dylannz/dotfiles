@@ -1,2 +1,2 @@
-EXCLUDES="README.md Brewfile sublimetext"
+EXCLUDES="README.md LICENSE Brewfile sublimetext"
 DOTFILES_DIRS="$HOME/.dotfiles"
