@@ -14,7 +14,7 @@ Install [rcm](https://github.com/thoughtbot/rcm):
 
 Install:
 
-	rcup -d .dotfiles -x README.md -x Brewfile -x sublimetext
+	rcup -d .dotfiles -x README.md -x LICENSE -x Brewfile -x sublimetext
 
 This will create symlinks for config files in your home directory. The `-x`
 options, which exclude the `README.md`, `LICENSE`, and `Brewfile` files, are
