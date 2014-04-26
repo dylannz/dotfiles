@@ -10,7 +10,7 @@ Clone the repo:
 
 Install [rcm](https://github.com/thoughtbot/rcm):
 
-	brew bundle dotfiles/Brewfile
+	brew bundle .dotfiles/Brewfile
 
 Install:
 

@@ -1,0 +1,2 @@
+EXCLUDES="README.md Brewfile sublimetext"
+DOTFILES_DIRS="$HOME/.dotfiles"
