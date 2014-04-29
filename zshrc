@@ -8,8 +8,15 @@ plugins=(brew encode64 git npm osx urltools z)
 
 source $ZSH/oh-my-zsh.sh
 
+export EDITOR="subl -w"
+
+export PATH=$HOME/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:$PATH
+
+# PHP
+export PATH=/Applications/MAMP/bin/php/php5.4.10/bin:$PATH;
+
+# NVM
 NVM_DIR=$HOME/.nvm
-NVM_BIN=$NVM_DIR/v0.10.26/bin
 
 if [[ -s $NVM_DIR/nvm.sh ]]
 	then
@@ -21,8 +28,14 @@ if [[ -r $NVM_DIR/bash_completion ]]
 		source $NVM_DIR/bash_completion
 fi
 
-PHP_BIN=/Applications/MAMP/bin/php/php5.4.10/bin
+export PATH=$NVM_DIR/v0.10.26/bin:$PATH;
 
-export PATH=$NVM_BIN:$PHP_BIN:$HOME/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:$PATH
+# RVM
+RVM_DIR=$HOME/.rvm
 
-export EDITOR="subl -w"
+if [[ -s $RVM_DIR/scripts/rvm ]]
+	then
+		source $RVM_DIR/scripts/rvm
+fi
+
+export PATH=$PATH:$RVM_DIR/bin
