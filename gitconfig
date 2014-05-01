@@ -1,6 +1,8 @@
 [user]
 	name = Martin Hipp
 	email = martin.hipp@gmail.com
+[core]
+	excludesfile = ~/.gitignore
 [alias]
 	st = status -sb
 	ci = commit
