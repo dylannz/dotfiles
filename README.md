@@ -1,4 +1,4 @@
-# dotfiles
+# My Dotfiles
 
 My OS X configuration files.
 
@@ -7,6 +7,15 @@ My OS X configuration files.
 Clone the repo:
 
 	git clone git://github.com/martinhipp/dotfiles.git .dotfiles
+
+Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and the [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) plugin:
+
+	git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+	cd ~/.oh-my-zsh/custom/plugins && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
+
+Set zsh as the default shell:
+
+	chsh -s /bin/zsh
 
 Install [rcm](https://github.com/thoughtbot/rcm):
 
