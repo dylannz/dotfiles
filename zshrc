@@ -4,7 +4,7 @@ ZSH_THEME=blinks
 
 CASE_SENSITIVE=true
 
-plugins=(brew encode64 git npm osx urltools z)
+plugins=(brew encode64 git npm osx urltools z zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
