@@ -1,12 +1,10 @@
 # My Dotfiles
 
-My OS X configuration files.
-
 ## Install
 
 Clone the repo:
 
-	git clone git://github.com/martinhipp/dotfiles.git .dotfiles
+	git clone git://github.com/martinhipp/dotfiles.git ~/.dotfiles
 
 Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and the [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) plugin:
 
@@ -19,11 +17,11 @@ Set zsh as the default shell:
 
 Install [rcm](https://github.com/thoughtbot/rcm):
 
-	brew bundle .dotfiles/Brewfile
+	brew bundle ~/.dotfiles/Brewfile
 
 Install:
 
-	rcup -d .dotfiles -x README.md -x LICENSE -x Brewfile -x sublimetext
+	rcup -d ~/.dotfiles -x README.md -x LICENSE -x Brewfile -x sublimetext
 
 This will create symlinks for config files in your home directory. The `-x`
 options, which exclude the `README.md`, `LICENSE`, and `Brewfile` files, are
@@ -33,3 +31,8 @@ file is symlinked in.
 You can safely run `rcup` multiple times to update:
 
 	rcup
+
+Reload the .zshrc file:
+
+	source ~/.zshrc
+
