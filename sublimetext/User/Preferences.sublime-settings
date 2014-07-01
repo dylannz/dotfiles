@@ -1,16 +1,33 @@
 {
 	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/solarflare (SL).tmTheme",
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
-	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".sass-cache"],
-	"font_face": "Source Code Pro",
-	"font_options": ["subpixel_antialias"],
-	"font_size": 15,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache"
+	],
+	"font_face": "Monaco",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"shift_tab_unindent": true,
 	"show_full_path": true,
 	"show_minimap": false,
-	"spell_check": true,
+	"soda_classic_tabs": true,
+	"spell_check": false,
+	"theme": "Soda Dark 3.sublime-theme",
 	"trim_trailing_white_space_on_save": true
 }
