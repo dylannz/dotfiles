@@ -1,6 +1,6 @@
 [user]
 	name = Dylan Jennings
-	email = dylan.jennings@proximity.co.nz
+	email = dylan@vendhq.com
 [core]
 	excludesfile = ~/.gitignore
 [alias]
@@ -29,3 +29,5 @@
 	ui = true
 [pull]
 	rebase = true
+[push]
+	default = simple
