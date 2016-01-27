@@ -4,7 +4,7 @@
 
 Clone the repo:
 
-	git clone git://github.com/martinhipp/dotfiles.git ~/.dotfiles
+	git clone git://github.com/dylannz/dotfiles.git ~/.dotfiles
 
 Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and the [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) plugin:
 
@@ -17,7 +17,7 @@ Set zsh as the default shell:
 
 Install [rcm](https://github.com/thoughtbot/rcm):
 
-	brew bundle ~/.dotfiles/Brewfile
+	brew tap thoughtbot/formulae && brew install rcm
 
 Install:
 
