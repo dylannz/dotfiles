@@ -4,16 +4,12 @@
 
 Clone the repo:
 
-	git clone git://github.com/dylannz/dotfiles.git ~/.dotfiles
+	git clone git@github.com:dylannz/dotfiles.git ~/.dotfiles
 
 Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and the [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) plugin:
 
-	git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-	cd ~/.oh-my-zsh/custom/plugins && git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
-
-Set zsh as the default shell:
-
-	chsh -s /bin/zsh
+	git clone git@github.com:robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+	cd ~/.oh-my-zsh/custom/plugins && git clone git@github.com:zsh-users/zsh-syntax-highlighting.git
 
 Install [rcm](https://github.com/thoughtbot/rcm):
 
